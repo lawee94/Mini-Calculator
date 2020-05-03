@@ -1,0 +1,34 @@
+.Button {
+    width: 16%;
+    background-color: rgb(163, 161, 159);
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 3%;
+    display: inline-table;
+}
+
+.Button .Danger {
+    background-color: red;
+}
+
+.Button Success {
+    background-color: green;
+}
+
+.hide {
+    visibility: hidden;
+    height: 0;
+}
+
+@media (max-width: 500px){
+    .Button{
+        width: 40px;
+        height: 30px;
+        margin: 7px 10px;
+    }
+    p {
+        margin: 5px 0;
+    }
+}

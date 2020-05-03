@@ -1,0 +1,16 @@
+.Layout {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color: rgb(163, 161, 159);
+    border-radius: 5px;
+}
+
+@media (max-width: 500px){
+    .Layout{
+        width: 100%;
+        margin: auto;
+    }
+}

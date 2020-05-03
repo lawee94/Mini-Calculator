@@ -1,0 +1,9 @@
+.Screen {
+    width: 90%;
+    height: 64px;
+    background-color: #fff;
+    margin: 20px auto;
+    text-align: right;
+    padding: 5px;
+    overflow-x: scroll;
+}
